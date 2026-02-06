@@ -57,12 +57,12 @@
 
    ============================================================================= */
 
-// EmailJS Configuration - REPLACE THESE WITH YOUR ACTUAL IDs
+// EmailJS Configuration
 const EMAILJS_CONFIG = {
-    PUBLIC_KEY: 'YOUR_PUBLIC_KEY',           // Get from: EmailJS Dashboard → Account → General
-    SERVICE_ID: 'YOUR_SERVICE_ID',           // Get from: EmailJS Dashboard → Email Services
-    QUOTE_TEMPLATE_ID: 'YOUR_QUOTE_TEMPLATE_ID',      // Template for quote requests
-    NEWSLETTER_TEMPLATE_ID: 'YOUR_NEWSLETTER_TEMPLATE_ID'  // Template for newsletter signups
+    PUBLIC_KEY: '-0Ytnb58lg5DEuhGY',
+    SERVICE_ID: 'service_fbv4nrj',
+    QUOTE_TEMPLATE_ID: 'template_ez29iok',
+    NEWSLETTER_TEMPLATE_ID: 'template_d3c6y4h'
 };
 
 (function() {

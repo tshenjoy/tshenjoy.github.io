@@ -116,23 +116,14 @@ Find this section near the top (around lines 60-66):
 
 ```javascript
 const EMAILJS_CONFIG = {
-    PUBLIC_KEY: 'YOUR_PUBLIC_KEY',
-    SERVICE_ID: 'YOUR_SERVICE_ID',
-    QUOTE_TEMPLATE_ID: 'YOUR_QUOTE_TEMPLATE_ID',
-    NEWSLETTER_TEMPLATE_ID: 'YOUR_NEWSLETTER_TEMPLATE_ID'
+    PUBLIC_KEY: '-0Ytnb58lg5DEuhGY',
+    SERVICE_ID: 'service_fbv4nrj',
+    QUOTE_TEMPLATE_ID: 'template_ez29iok',
+    NEWSLETTER_TEMPLATE_ID: 'template_d3c6y4h'
 };
 ```
 
-Replace with your actual values:
-
-```javascript
-const EMAILJS_CONFIG = {
-    PUBLIC_KEY: 'AbCdEfGhIjKlMnOp',           // Your public key
-    SERVICE_ID: 'service_abc123',              // Your service ID
-    QUOTE_TEMPLATE_ID: 'template_quote123',    // Quote template ID
-    NEWSLETTER_TEMPLATE_ID: 'template_news456' // Newsletter template ID
-};
-```
+✅ **CONFIGURED** - The EmailJS credentials have been set up in `assets/js/main.js`
 
 ---
 
