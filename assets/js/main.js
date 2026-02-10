@@ -60,7 +60,7 @@
 // EmailJS Configuration
 const EMAILJS_CONFIG = {
     PUBLIC_KEY: '-0Ytnb58lg5DEuhGY',
-    SERVICE_ID: 'service_fbv4nrj',
+    SERVICE_ID: 'service_bldx9hm',
     QUOTE_TEMPLATE_ID: 'template_ez29iok',
     NEWSLETTER_TEMPLATE_ID: 'template_d3c6y4h'
 };
