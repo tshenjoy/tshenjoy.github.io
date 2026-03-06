@@ -63,9 +63,9 @@
             '        <li class="nav-item has-dropdown' + ac('products') + '">' +
             '          <a href="' + pg + 'products.html">Products</a>' +
             '          <ul class="dropdown">' +
-            '            <li><a href="' + pg + 'products.html#drill-machines">Drill Machines</a></li>' +
-            '            <li><a href="' + pg + 'products.html#drill-stand">Drill Stands</a></li>' +
-            '            <li><a href="' + pg + 'products.html#floor-grinder">Floor Grinders</a></li>' +
+            '            <li><a href="' + pg + 'diamond-core-drill.html">Drill Machines</a></li>' +
+            '            <li><a href="' + pg + 'drill-stand.html">Drill Stands</a></li>' +
+            '            <li><a href="' + pg + 'floor-grinder.html">Floor Grinders</a></li>' +
             '            <li><a href="' + pg + 'products.html#water-drill-dust-collector">Water Drills & Dust Collectors</a></li>' +
             '            <li><a href="' + pg + 'products.html#product-bundles">Product Bundles</a></li>' +
             '          </ul>' +

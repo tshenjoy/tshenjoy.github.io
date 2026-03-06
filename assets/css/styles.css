@@ -265,11 +265,12 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 .nav-item > a {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 28px 22px;
+    gap: 4px;
+    padding: 28px 14px;
     color: var(--text-white);
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 500;
+    white-space: nowrap;
     transition: all 0.3s ease;
 }
 
@@ -1744,7 +1745,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     align-items: center;
     justify-content: center;
     margin-bottom: 28px;
-    background: var(--bg-light);
+    background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -1753,6 +1754,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
+    mix-blend-mode: multiply;
     transition: transform 0.3s ease;
 }
 
