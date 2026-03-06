@@ -40,48 +40,12 @@
     <link rel="stylesheet" href="../assets/css/pages.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="header-container">
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../assets/images/logo-footer.png" alt="StarlandMech Logo">
-                </a>
-            </div>
-            <nav class="main-nav">
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="../index.html">Home</a></li>
-                    <li class="nav-item has-dropdown active">
-                        <a href="services.html">Service</a>
-                        <ul class="dropdown">
-                            <li><a href="technical-help.html">Technical Help</a></li>
-                            <li><a href="research-development.html">Research & Development</a></li>
-                            <li><a href="after-sale-service.html">After-sale Service</a></li>
-                            <li><a href="technical-article.html">Technical Article</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item has-dropdown">
-                        <a href="products.html">Products</a>
-                        <ul class="dropdown">
-                            <li><a href="products.html#core-drill">Diamond Core Drill</a></li>
-                            <li><a href="products.html#drill-stand">Drill Stand</a></li>
-                            <li><a href="products.html#floor-grinder">Floor Grinder</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-                    <li class="nav-item"><a href="about.html">About Us</a></li>
-                </ul>
-            </nav>
-            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </header>
+    <div id="site-header"></div>
 
     <!-- Page Header -->
     <section class="services-hero-banner">
         <div class="banner-overlay"></div>
-        <img src="../assets/images/hero-banner-02.jpg" alt="After-sale Service" class="banner-bg">
+        <img src="../assets/images/after-sale-service-header-banner.jpg" alt="After-sale Service" class="banner-bg">
         <div class="container">
             <nav class="breadcrumb">
                 <a href="../index.html">Home</a>
@@ -91,7 +55,7 @@
                 <span>After-sale Service</span>
             </nav>
             <div class="banner-content">
-                <h1>After-sale Service</h1>
+                <h1>AFTER-SALE SERVICE</h1>
                 <p>Your satisfaction is our final purpose. We're here to support you every step of the way.</p>
             </div>
         </div>
@@ -205,47 +169,13 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-column footer-brand">
-                <img src="../assets/images/logo-footer.png" alt="StarlandMech" class="footer-logo">
-                <p class="footer-tagline">Your valuable concrete machinery partner</p>
-                <div class="social-icons">
-                    <a href="https://wa.me/message/7Y2LBZ2Z2SI3B1" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://facebook.com/share/1Bc6PDuMKT" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/starlandmech?igsh=MW9mcGN4Z212NzhwbQ==" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://t.me/StarlandMech" target="_blank"><i class="fab fa-telegram"></i></a>
-                    <a href="https://youtube.com/@starlandmech" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://tiktok.com/@starland_mech.gar" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://vk.com/mr.garvin" target="_blank"><i class="fab fa-vk"></i></a>
-                </div>
-            </div>
-            <div class="footer-column">
-                <h5>Service</h5>
-                <ul class="footer-links">
-                    <li><a href="technical-help.html">Technical Help</a></li>
-                    <li><a href="research-development.html">Research & Development</a></li>
-                    <li><a href="after-sale-service.html">After-sale Service</a></li>
-                    <li><a href="technical-article.html">Technical Article</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h5>Support</h5>
-                <ul class="footer-links">
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p class="copyright">Copyright 2025 StarlandMech, All rights reserved</p>
-        </div>
-    </footer>
+    <div id="site-footer"></div>
 
     <!-- Scroll to Top -->
     <button id="scrollToTop" class="scroll-to-top"><i class="fas fa-chevron-up"></i></button>
 
+    <script src="../assets/js/components.js"></script>
+    <script>renderHeader('after-sale-service'); renderFooter();</script>
     <script src="../assets/js/main.js"></script>
 </body>
 </html>

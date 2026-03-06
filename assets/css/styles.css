@@ -13,9 +13,9 @@
    ============================================= */
 :root {
     /* Primary Colors - Matching original */
-    --primary-green: #0B5E3D;
-    --primary-green-dark: #094a31;
-    --primary-green-light: #0d7048;
+    --primary-green: #125f4c;
+    --primary-green-dark: #0e4f3e;
+    --primary-green-light: #167258;
 
     /* Text Colors */
     --text-dark: #1a1a1a;
@@ -28,7 +28,7 @@
     --bg-white: #ffffff;
     --bg-light: #F8F9FA;
     --bg-cream: #F5F3EF;
-    --bg-green: #0B5E3D;
+    --bg-green: #125f4c;
 
     /* Accent Colors */
     --accent-gold: #C9A962;
@@ -168,7 +168,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 .btn-primary:hover {
     background-color: var(--primary-green-dark);
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(11, 94, 61, 0.3);
+    box-shadow: 0 8px 20px rgba(18, 95, 76, 0.3);
 }
 
 .btn-outline {
@@ -222,7 +222,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 }
 
 .site-header.scrolled {
-    background-color: rgba(11, 94, 61, 0.98);
+    background-color: rgba(18, 95, 76, 0.98);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -559,7 +559,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 
 .contact-item i {
     color: var(--primary-green);
-    background: rgba(11, 94, 61, 0.3);
+    background: rgba(18, 95, 76, 0.3);
     width: 36px;
     height: 36px;
     display: flex;
@@ -699,7 +699,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(11, 94, 61, 0.92) 0%, rgba(9, 74, 49, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(18, 95, 76, 0.92) 0%, rgba(14, 79, 62, 0.95) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -786,7 +786,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(11, 94, 61, 0.92) 0%, rgba(9, 74, 49, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(18, 95, 76, 0.92) 0%, rgba(14, 79, 62, 0.95) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -897,7 +897,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 }
 
 .feature-card:hover .feature-icon {
-    background: rgba(11, 94, 61, 0.1);
+    background: rgba(18, 95, 76, 0.1);
     transform: scale(1.05);
 }
 
@@ -1586,7 +1586,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-green-dark);
-    box-shadow: 0 0 0 3px rgba(11, 94, 61, 0.15);
+    box-shadow: 0 0 0 3px rgba(18, 95, 76, 0.15);
 }
 
 .btn-full {
@@ -1633,7 +1633,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 20px rgba(11, 94, 61, 0.3);
+    box-shadow: 0 4px 20px rgba(18, 95, 76, 0.3);
 }
 
 .scroll-to-top.visible {
@@ -1644,7 +1644,7 @@ h6 { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.15em; fon
 .scroll-to-top:hover {
     background-color: var(--primary-green-dark);
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(11, 94, 61, 0.4);
+    box-shadow: 0 8px 25px rgba(18, 95, 76, 0.4);
 }
 
 /* =============================================

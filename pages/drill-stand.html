@@ -58,53 +58,12 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="header-container">
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../assets/images/logo-footer.png" alt="StarlandMech Logo">
-                </a>
-            </div>
-            <nav class="main-nav">
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="../index.html">Home</a></li>
-                    <li class="nav-item has-dropdown">
-                        <a href="services.html">Service</a>
-                        <ul class="dropdown">
-                            <li><a href="technical-help.html">Technical Help</a></li>
-                            <li><a href="research-development.html">Research & Development</a></li>
-                            <li><a href="after-sale-service.html">After-sale Service</a></li>
-                            <li><a href="technical-article.html">Technical Article</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item has-dropdown active">
-                        <a href="products.html">Products</a>
-                        <ul class="dropdown">
-                            <li><a href="diamond-core-drill.html">Diamond Core Drill</a></li>
-                            <li><a href="drill-stand.html">Drill Stand</a></li>
-                            <li><a href="floor-grinder.html">Floor Grinder</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-                    <li class="nav-item"><a href="about.html">About Us</a></li>
-                </ul>
-            </nav>
-            <div class="header-actions">
-                <button class="search-toggle" aria-label="Search">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </header>
+    <div id="site-header"></div>
 
     <!-- Product Hero Section -->
     <section class="product-hero">
         <div class="container">
-            <h1>Drill Stand</h1>
+            <h1>DRILL STAND</h1>
             <p>Professional drill stands engineered for stability, precision, and durability in demanding construction environments.</p>
         </div>
     </section>
@@ -347,64 +306,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-column footer-brand">
-                <img src="../assets/images/logo-footer.png" alt="StarlandMech" class="footer-logo">
-                <p class="footer-tagline">Professional construction machinery solutions built for performance, reliability, and durability on every job site.</p>
-                <div class="social-icons">
-                    <a href="https://wa.me/message/7Y2LBZ2Z2SI3B1" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://facebook.com/share/1Bc6PDuMKT" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/starlandmech?igsh=MW9mcGN4Z212NzhwbQ==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://t.me/StarlandMech" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
-                    <a href="https://youtube.com/@starlandmech" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    <a href="https://tiktok.com/@starland_mech.gar" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://vk.com/mr.garvin" target="_blank" aria-label="VK"><i class="fab fa-vk"></i></a>
-                </div>
-            </div>
-            <div class="footer-column">
-                <h5>Service</h5>
-                <ul class="footer-links">
-                    <li><a href="technical-help.html">Technical Help</a></li>
-                    <li><a href="research-development.html">Research & Development</a></li>
-                    <li><a href="after-sale-service.html">After-sale Service</a></li>
-                    <li><a href="technical-article.html">Technical Article</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h5>Support</h5>
-                <ul class="footer-links">
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Sales Support</a></li>
-                    <li><a href="#">Terms & Condition</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h5>Recent Post</h5>
-                <div class="recent-posts">
-                    <article class="recent-post">
-                        <a href="#">New Product Launch</a>
-                        <span class="post-date">May 24, 2025 - No Comments</span>
-                    </article>
-                    <article class="recent-post">
-                        <a href="#">Hello world!</a>
-                        <span class="post-date">May 10, 2025 - 1 Comment</span>
-                    </article>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <ul class="footer-bottom-links">
-                <li><a href="#">Term & Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-            </ul>
-            <p class="copyright">Copyright © 2025 StarlandMech, All rights reserved</p>
-        </div>
-    </footer>
+    <div id="site-footer"></div>
 
     <!-- Quote Request Modal -->
     <div id="quoteModal" class="modal">
@@ -447,6 +349,8 @@
     </button>
 
     <!-- Scripts -->
+    <script src="../assets/js/components.js"></script>
+    <script>renderHeader('products'); renderFooter();</script>
     <script src="../assets/js/main.js"></script>
 </body>
 </html>

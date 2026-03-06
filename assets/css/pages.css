@@ -293,7 +293,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(11, 94, 61, 0.85) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(18, 95, 76, 0.85) 0%, rgba(0, 0, 0, 0.6) 100%);
     z-index: 1;
 }
 
@@ -385,14 +385,14 @@
 
 .service-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 40px rgba(11, 94, 61, 0.12);
-    border-color: rgba(11, 94, 61, 0.15);
+    box-shadow: 0 12px 40px rgba(18, 95, 76, 0.12);
+    border-color: rgba(18, 95, 76, 0.15);
 }
 
 .service-icon {
     width: 70px;
     height: 70px;
-    background: linear-gradient(135deg, var(--primary-green) 0%, #1a5a3a 100%);
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a6b52 100%);
     border-radius: 16px;
     display: flex;
     align-items: center;
@@ -503,7 +503,7 @@
 /* Services CTA Section */
 .services-cta {
     padding: 80px 0;
-    background: linear-gradient(135deg, var(--primary-green) 0%, #1a5a3a 100%);
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a6b52 100%);
 }
 
 .services-cta .cta-content {
@@ -663,7 +663,7 @@
     align-items: center;
     gap: 12px;
     padding: 14px 32px;
-    background: linear-gradient(135deg, var(--primary-green) 0%, #1a5a3a 100%);
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a6b52 100%);
     color: #fff;
     font-weight: 600;
     font-size: 1rem;
@@ -676,7 +676,7 @@
 .view-all-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
-    background: linear-gradient(135deg, #1a5a3a 0%, var(--primary-green) 100%);
+    background: linear-gradient(135deg, #1a6b52 0%, var(--primary-green) 100%);
 }
 
 .view-all-link i {
@@ -723,7 +723,7 @@
 .product-card-page .product-image {
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -734,6 +734,7 @@
     height: 100%;
     object-fit: contain;
     padding: 15px;
+    mix-blend-mode: multiply;
     transition: transform var(--transition-normal);
 }
 
